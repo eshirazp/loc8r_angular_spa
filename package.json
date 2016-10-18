@@ -20,10 +20,5 @@
     "morgan": "~1.7.0",
     "request": "^2.75.0",
     "serve-favicon": "~2.3.0"
-  },
-  "main": "app.js",
-  "devDependencies": {},
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }

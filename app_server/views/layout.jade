@@ -9,7 +9,7 @@ html(ng-app='loc8rApp')
     .navbar.navbar-default.navbar-fixed-top
       .container
         .navbar-header
-          a.navbar-brand(href='/') Loc8r
+          a.navbar-brand(href='/') Loc8r Angular SPA
           button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
             span.icon-bar
             span.icon-bar
@@ -27,7 +27,8 @@ html(ng-app='loc8rApp')
             small &copy; Elush Shirazpour 2016
 
     script(src='/angular/angular.min.js')
-    script(src='/angular/loc8rApp.js')
+    script(src='/lib/angular-route.min.js')
+    script(src='/app.js')
     script(src='/javascript/jquery-1.11.1.min.js')
     script(src='/bootstrap/js/bootstrap.min.js')
     script(src='/javascript/validation.js')
