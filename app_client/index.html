@@ -6,36 +6,12 @@
     <link rel="stylesheet" href="/bootstrap/css/amelia.bootstrap.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
   </head>
-  
-  <body>
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header"><a href="/" class="navbar-brand">Loc8r</a>
-          <button type="button" data-toggle="collapse" data-target="#navbarmain"
-          class="navbar-toggle"><span class="icon-bar"></span><span
-          class="icon-bar"></span><span class="icon-bar"></span></button>
-        </div>
-
-        <div id="navbar-main" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="/#about">About</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  
-  <div class="container">
-    <div ng-view>
-    </div>
-    <footer-generic></footer-generic>
-  </div>
-
-  <script src="/angular/angular.min.js"></script>
-  <script src="/lib/angular-route.min.js"></script>
-  <script src="/angular/loc8r.min.js"></script>
-  <script src="/javascript/jquery-1.11.1.min.js"></script>
-  <script src="/bootstrap/js/bootstrap.min.js"></script>
-  <script src="/javascript/validation.js"></script>
-
+  <body ng-view>
+    <script src="/angular/angular.min.js"></script>
+    <script src="/lib/angular-route.min.js"></script>
+    <script src="/angular/loc8r.min.js"></script>
+    <script src="/javascript/jquery-1.11.1.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/javascript/validation.js"></script>
   </body>
 </html>
